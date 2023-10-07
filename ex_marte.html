@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Argonautas.com | Hosted Site</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center; /* Para centrar el contenido en el centro de la página */
+      }
+      #header {
+        background-image: url('https://static.nationalgeographic.es/files/styles/image_3200/public/940.jpg?w=1900&h=1427');
+        background-size: cover;
+        color: white; /* Para que el texto sea visible en la imagen */
+        padding: 50px; /* Espacio alrededor del texto */
+      }
+    </style>
+    <div id="header">
+      <h1>ARGONAUTAS</h1>
+      <nav>
+        <div class="dropdown">
+            <button class="dropbtn">Explorar</button>
+            <div class="dropdown-content">
+                <a href="ex_marte.html">Misión a Marte</a>
+                <a href="ex_lunar.html">Exploración Lunar</a>
+                <a href="#">Cinturón de Asteroides</a>
+            </div>
+        </div>
+        <a href="#">Acerca de Nosotros</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+    <center>
+      <!-- <img src="https://porkbun.com/images/porkbun.fb.png"> -->
+      <h2>F home of a <a href="https://porkbun.com">Porkbun.com</a> hosted domain name!</h2>
+      <p>This domain is using our high-performance static web hosting!</p>
+      <p>Come back soon because things are about to get real.<br>VISIT <a href="https://porkbun.com">Porkbun.com</a> for a great deal on your domain, web hosting,<br>free SSL certificates, email, and more.</p>
+    </center>
+    <div>
+      <h1> Planeta</h1>
+      <canvas id="canvasOne" width="1024" height="768">
+        Your browser does not support HTML5 Canvas.
+      </canvas>
+      <script 
+      src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"
+      type="text/javascript"></script>
+      <script src="helloWorldWind.js" type="text/javascript">
+      </script>
+      <script src="script.js"></script>
+    </div>
+    
+  </body>
+</html>
+
