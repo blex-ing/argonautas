@@ -1,5 +1,7 @@
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 /* Estilos del menú desplegable */
 .dropdown {
@@ -28,10 +30,37 @@ body {
 
 /* Estilos generales del menú */
 header {
-    background-color: #333;
+    
+    /* background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px; */
+    background-image: url('./images/pxfuel.jpg');
+            background-size: cover;
+            background-attachment: fixed; /* Fija la imagen de fondo */
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+}
+/* Estilos del contenido */
+.content {
+    padding: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+/* Estilos del efecto parallax */
+.parallax {
+    background-image: url('./images/pxfuel1.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    padding: 100px 0;
+    color: white;
+    text-align: center;
 }
 
 h1 a {
@@ -56,3 +85,4 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
