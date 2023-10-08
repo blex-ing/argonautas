@@ -209,7 +209,7 @@ ul {
     justify-content: center; Centra horizontalmente
 } */
 .image img {
-    max-width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    max-width: 50%; /* Ajusta la imagen al 100% del ancho del contenedor */
     height: auto; /* Ajusta automáticamente la altura */
     
 }
