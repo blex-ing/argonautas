@@ -57,6 +57,7 @@ header {
             background-size: cover;
             background-attachment: fixed; /* Fija la imagen de fondo */
             height: 50vh;
+            /* padding: 100px 0; */
             color: white;
             text-align: center;
             display: flex;
