@@ -173,3 +173,27 @@ ul {
     font-weight: bold;
     color: #007acc;
 }
+
+.objective {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+/* impact */
+.impact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.impact-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007acc;
+}
+.impact-description {
+    font-style: italic;
+}
