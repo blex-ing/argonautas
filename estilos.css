@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 /* Estilos del menú desplegable */
-.dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
 }
@@ -26,7 +26,7 @@ body {
 
 .dropdown-content a:hover {
     background-color: #ddd;
-}
+} */
 
 /* Estilos generales del menú */
 .header1 {
@@ -56,7 +56,7 @@ header {
     background-image: url('./images/pxfuel.jpg');
             background-size: cover;
             background-attachment: fixed; /* Fija la imagen de fondo */
-            height: 100vh;
+            height: 50vh;
             color: white;
             text-align: center;
             display: flex;
