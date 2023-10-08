@@ -204,10 +204,19 @@ ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas */
     gap: 10px; /* Espacio entre las imágenes */
+    align-items: center;
 }
 /* Estilos CSS para las imágenes */
+/* Estilos CSS para las imágenes y su contenedor */
 .image {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
+    width: 500px; /* Tamaño fijo de 200px para el ancho */
+    height: 150px; /* Tamaño fijo de 150px para el alto */
+    overflow: hidden; /* Oculta el contenido que exceda el tamaño */
+    display: flex; /* Utiliza un contenedor flex para centrar vertical y horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+.image img {
+    max-width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    height: auto; /* Ajusta automáticamente la altura */
 }
