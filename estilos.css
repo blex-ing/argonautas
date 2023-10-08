@@ -116,8 +116,60 @@ nav a:hover {
 }
 .team {
     font-weight: bold;
-    color: #007acc;
+    color:blue;
 }
 .mission {
     font-style: italic;
+}
+
+
+/* add in ingex */
+.challenge {
+    background-color: #fff;
+    background-image: url('./images/pxfuel1.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.game-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007acc;
+}
+.major-challenges {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.goal {
+    font-style: italic;
+}
+.join-us {
+    font-weight: bold;
+    color: #007acc;
+}
+
+.experience {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.decision {
+    font-weight: bold;
+    color: #007acc;
 }
