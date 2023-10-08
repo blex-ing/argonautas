@@ -197,3 +197,17 @@ ul {
 .impact-description {
     font-style: italic;
 }
+
+/* imagens en grill */
+/* Estilos CSS para la cuadrícula */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+/* Estilos CSS para las imágenes */
+.image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
